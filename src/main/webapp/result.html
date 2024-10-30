@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+   <title>Результати обчислень</title>
+</head>
+<body>
+<h1>Результати обчислень:</h1>
+<table>
+  <tr><th>№</th><th>x</th><th>y</th></tr>
+  ${tableRows}
+</table>
+    <form>
+<p>Найбільше значення функції: y[${maxIndex}]=${maxYValue} при x=${maxXValue} </p>
+<p>Найменше значення функції: y[${minIndex}]=${minYValue} при x=${minXValue}</p>
+<p>Сума значень функції: ${sum}</p>
+<p>Середнє арифметичне значень функції: ${average}</p>
+<form action="first.html" method="get">
+    <input type="submit" value="Ввести нові дані">
+</form>
+</form>
+</body>
+</html>
+

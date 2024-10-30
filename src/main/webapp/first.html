@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Введення даних для обчислень</title>
+</head>
+<body>
+<h1>Введіть дані для обчислення функції</h1>
+<form action="CalculateFunServlet" method="post">
+    <label for="a">a:</label>
+    <input type="text" id="a" name="a" value="-0.5">
+    <label for="b">b:</label>
+    <input type="text" id="b" name="b" value="2.0">
+    <label for="start">Початкове значення x:</label>
+    <input type="text" id="start" name="start" value="0.0">
+    <label for="finish">Кінцеве значення x:</label>
+    <input type="text" id="finish" name="finish" value="3.0">
+    <label for="step">Крок:</label>
+    <input type="text" id="step" name="step" value="0.004">
+    <input type="submit" value="Обчислити">
+</form>
+</body>
+</html>
